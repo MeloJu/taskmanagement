@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1> Lista de tarefas</h1>
+
+    <header>
+        <input id="inputTarefa" type="text" placeholder="Digite sua Tarefa">
+        <button onclick="addTarefa()" id="btn-add" class="add">Adicionar</button>
+    </header>
+
+    <main id="areaLista">
+
+        <div class="itemClicado">
+            <div class= "icone">
+                <span class="iconify" data-icon="mdi-check-circle"></span>
+            </div>
+            <div class="itemNome">
+                <span>Teste de tarefa</span>
+            </div>
+            <div class="itemBotao">
+                <button class="delete">Deletar<span class="iconify" data-icon="mdi-delete"></span></button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/control.js"></script>
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</body>
+
+<footer>
+
+</footer>
+</html>
